@@ -1,0 +1,55 @@
+Text that appears outside of the block tags
+will not display in the credits scene
+    time,scroll,fadeIn,fadeOut,ypos,align,image
+    your text here
+    
+
+time    = amount of time text within tag is displayed before the next tag.
+          this can be -1 for auto
+scroll  = how fast the text scrolls. negative for up, positive for down
+fadeIn  = how fast the tag text fades in (make this 255 to instant appear)
+fadeOut = how fast the tag text fades out (255 to instant disappear)
+ypos    = the starting y position of the block of text on screen. This can
+          be a pixel value or you can use offtop or offbot to have the text
+          begind offscreen (so you can scroll it on)
+align   = left,center or right
+image   = image name in /img/titles1/ folder to use as background. Leave
+          this out to use the previous image.
+
+
+<block:100000,0,10,10,50,center,starfield>
+\c[4]Programowanie, zagadki, mapa, fabuła:
+Maciej Bogacki
+
+\c[4]Grafiki:
+Degica, Indrah, SchwarzeNacht, Dungeon Crawl: Stone Soup, 
+Kokoro Reflactions, Screaming Brain Studios
+
+\c[4]Ilustracje:
+Akira, Niteshift, George Hodan, Myotus, Halfdan, Indolences, 
+Nieuw, Huntster, Christaras A, Eva Hejda, NASA
+
+\c[4]RPGMaker'owe pluginy:
+Biud436, Darkkitten, Galv, Masked, OcRam, Quxios, Rhyme, Shaz, 
+SumRndmDde, Triacontane, Yanfly, Yoji Ojima
+
+
+</block>
+
+block:-1,-10,10,10,offbot,center,Island>
+CREDITS
+
+\c[2]Engine
+Degica
+RPG Maker MV
+
+\c[2]Plugin Programmer
+Galv
+
+\c[2]Artwork
+Degica
+RPG Maker MV
+
+\c[2]Thanks
+All my supporters
+/block>
